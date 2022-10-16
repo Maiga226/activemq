@@ -36,7 +36,7 @@ public class MessageConsumer {
         String nom=obj.getString("nomClient");
         String prenom=obj.getString("prenomClient");
         String numero=obj.getString("numerCompte");
-        String solde=obj.getString("solde");
+        Double solde=obj.getDouble("solde");
         String date=obj.getString("dateSolde");
         System.out.println("dateSolde"+obj.getString("dateSolde"));
         String[] newDate=date.split("-");
